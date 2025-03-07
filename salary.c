@@ -15,4 +15,5 @@ int main(){
     printf("now you can search for the employee by entering his id\n enter the id: ");
     scanf("%d" ,&id);
     printf("month 1= %f$ \nmonth 2 =%f$\nmonth 3 = %f$" ,empl[id-1][0] , empl[id-1][1] , empl[id-1][2]);
+    return 0;
 }
